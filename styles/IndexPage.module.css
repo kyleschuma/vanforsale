@@ -1,0 +1,53 @@
+.header { 
+  margin-bottom: 1rem;
+}
+
+.columns { 
+  width: calc(100vw - 2rem);
+
+  display: flex;
+  flex-direction: row;
+}
+
+.columnLeft { 
+  flex: .44;
+  padding-right: 1rem;
+}
+.columnRight { 
+  flex: .66;
+}
+
+.larger { 
+  font-size: x-large;
+}
+
+.imageFocus { 
+  width: 100%;
+  height: 512px;
+
+  border: .5px solid black;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageThumb { 
+  width: 96px;
+  height: 96px;
+
+  border: .5px solid black;
+  border-radius: 1rem;
+}
+
+.images { 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 720px) {
+  .columns {
+    flex-direction: column;
+  }
+}

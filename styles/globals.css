@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 300;
+  font-size: medium;
+}
+
+h1, h2, h3, h4, h5 { 
+  line-height: 1em;
+  margin: 0;
+}
+
+h1 { 
+  font-size: xx-large;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+dt { 
+  font-weight: 500;
+  font-size: medium;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+dd {
+  font-weight: 300;
+  margin-inline-start: 0.25rem;
+  margin-left: .75rem;
+  padding: .75rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
