@@ -21,20 +21,27 @@
   font-size: x-large;
 }
 
-.imageFocus { 
-  width: 100%;
-  height: 512px;
-
-  border: .5px solid black;
+.imageContainer { 
   border-radius: 1rem;
-  margin-bottom: 1rem;
+}
+
+.imageFocus { 
+  position: relative;
+  height: 512px;
+}
+
+.imageFocus img {
+  border-radius: 1rem;
 }
 
 .imageThumb { 
-  width: 96px;
+  position: relative;
   height: 96px;
 
-  border: .5px solid black;
+  border-radius: 1rem;
+}
+
+.imageThumb img { 
   border-radius: 1rem;
 }
 
@@ -44,6 +51,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-top: 1rem;
 }
 
 @media (max-width: 720px) {
