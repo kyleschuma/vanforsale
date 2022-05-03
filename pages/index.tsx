@@ -23,7 +23,6 @@ const IndexPage: NextPage = () => {
     "/images/IMG_4279.jpeg",
     "/images/IMG_4297.jpeg",
     "/images/IMG_4493.jpeg",
-    "/images/IMG_4493.jpeg",
     "/images/IMG_8538.jpeg",
     "/images/IMG_8836.jpeg",
     "/images/IMG_8837.jpeg",

@@ -78,7 +78,7 @@ interface Props {
   photos: string[];
   onClick: (image: string) => void;
   gridSize?: string;
-  width?: number;
+  width: number;
 }
 
 interface State {
@@ -167,12 +167,16 @@ class ReactPhotoGrid extends React.Component<Props, State> {
     // elementResizeEvent(ReactDOM.findDOMNode(this). this.onResize);
   }
 
-  componentWillReceiveProps(next: Props) {
+  UNSAFE_componentWillReceiveProps(next: Props) {
     if (next.width === this.props.width) {
       return null;
     }
 
-    this.setState((prev) => ({ ...prev, containerHeight: next.width }));
+    this.setState({
+      ...this.state,
+      containerHeight: next.width,
+      containerWidth: next.width,
+    });
 
     return {
       ...this.props,
