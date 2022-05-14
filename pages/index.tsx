@@ -29,9 +29,9 @@ const IndexPage: NextPage = () => {
       if (index === photos.length - 1) {
         setIndex(0);
       } else {
-        setIndex(index + 30);
+        setIndex(index + 1);
       }
-    }, 1000 * 1);
+    }, 1000 * 30);
 
     return () => {
       clearInterval(handle);
