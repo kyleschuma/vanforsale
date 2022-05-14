@@ -5,7 +5,7 @@ import Image from "next/image";
 const IndexPage: NextPage = () => {
   const photos = [
     "/images/8958B963-DCD1-4643-9BFE-C4F60E0BC1F1-1.jpg",
-    //"/images/IMG_0211.jpeg",
+    "/images/IMG_0211.jpeg",
     "/images/IMG_1098.jpeg",
     "/images/IMG_2071.jpeg",
     "/images/IMG_2352.jpeg",
@@ -16,11 +16,11 @@ const IndexPage: NextPage = () => {
     "/images/IMG_3879.jpeg",
     "/images/IMG_4277.jpeg",
     "/images/IMG_4279.jpeg",
-    //"/images/IMG_4297.jpeg",
-    //"/images/IMG_4493.jpeg",
-    //"/images/IMG_8538.jpeg",
-    //"/images/IMG_8836.jpeg",
-    //"/images/IMG_8837.jpeg",
+    "/images/IMG_4297.jpeg",
+    "/images/IMG_4493.jpeg",
+    // "/images/IMG_8538.jpeg",
+    // "/images/IMG_8836.jpeg",
+    // "/images/IMG_8837.jpeg",
   ];
   const [index, setIndex] = useState(0);
 
@@ -113,16 +113,21 @@ const IndexPage: NextPage = () => {
           <a href="tel:7755902797">(775)790-2797</a>
           {` if interested.`}
         </p>
+        <div className="image-gallery">
+          {photos.map((photo) => (
+            <Image
+              key={photo}
+              alt="Image"
+              src={photo}
+              layout="intrinsic"
+              objectFit="cover"
+              width={256}
+              height={128}
+            />
+          ))}
+        </div>
       </article>
-      <aside>
-        <Image
-          alt="Image"
-          src={photos[index]}
-          layout="fill"
-          objectFit="cover"
-          width="100%"
-        />
-      </aside>
+      <aside></aside>
     </main>
   );
 };
