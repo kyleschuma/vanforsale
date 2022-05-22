@@ -13,27 +13,20 @@ const IndexPage: NextPage = () => {
   const photos = [
     "/images/IMG_0211.jpeg",
     "/images/IMG_0366.jpeg",
-    "/images/IMG_0525.jpeg",
     "/images/IMG_0526.jpeg",
     "/images/IMG_0576.jpeg",
     "/images/IMG_0629.jpeg",
     "/images/IMG_1098.jpeg",
     "/images/IMG_1671.jpeg",
     "/images/IMG_1702.jpeg",
-    "/images/IMG_1740.jpeg",
-    "/images/IMG_1743.jpeg",
     "/images/IMG_1748.jpeg",
     "/images/IMG_2058.jpeg",
     "/images/IMG_2070.jpeg",
     "/images/IMG_2071.jpeg",
     "/images/IMG_2198.jpeg",
-    "/images/IMG_2208.jpeg",
-    "/images/IMG_2219.jpeg",
     "/images/IMG_2352.jpeg",
-    "/images/IMG_2417.jpeg",
     "/images/IMG_2463.jpeg",
     "/images/IMG_2613.jpeg",
-    "/images/IMG_2614.jpeg",
     "/images/IMG_2888.jpeg",
     "/images/IMG_2894.jpeg",
     "/images/IMG_3151.jpeg",
@@ -46,10 +39,7 @@ const IndexPage: NextPage = () => {
     "/images/IMG_4272.jpeg",
     "/images/IMG_4273.jpeg",
     "/images/IMG_4274.jpeg",
-    "/images/IMG_4275.jpeg",
-    "/images/IMG_4276.jpeg",
     "/images/IMG_4277.jpeg",
-    "/images/IMG_4278.jpeg",
     "/images/IMG_4279.jpeg",
     "/images/IMG_4297.jpeg",
     "/images/IMG_4493.jpeg",
@@ -61,7 +51,14 @@ const IndexPage: NextPage = () => {
     "/images/IMG_8516.jpeg",
     "/images/IMG_8538.jpeg",
     "/images/IMG_8554.jpeg",
-    "/images/IMG_8555.jpeg",
+    "/images/IMG_4436.jpeg",
+    "/images/IMG_4437.jpeg",
+    "/images/IMG_4445.jpeg",
+    "/images/IMG_4446.jpeg",
+    "/images/IMG_4447.jpeg",
+    "/images/IMG_4448.jpeg",
+    "/images/IMG_4449.jpeg",
+    "/images/IMG_8845.jpeg",
     "/images/IMG_8856.jpeg",
   ];
   const [highlighted, highlight] = useState<string | undefined>();
@@ -133,10 +130,7 @@ const IndexPage: NextPage = () => {
           Get started with your adventure today.`}
           </p>
           <p>
-            {`Includes seatbelts for 4 and most comfortably sleeps 2 adults and 1 to
-          2 children. Includes wet bath (cassette toilet + shower),
-          refrigerator/freezer, sink, and induction burner. Take a look at the
-          original `}
+            {`Includes seatbelts for 4 and most comfortably sleeps 2 adults and 1 to 2 children. Includes wet bath (cassette toilet + shower) that also doubles as a storage closet with removable bamboo shelving, refrigerator/freezer, sink, and induction burner. Take a look at the original `}
             <a href="https://www.winnebago.com/Files/Images/Winnebago/brochures/2019/2019-revel-digital.x.pdf">
               brochure
             </a>
