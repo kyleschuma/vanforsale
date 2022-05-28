@@ -170,7 +170,7 @@ const IndexPage: NextPage = () => {
           </p>
           <p>
             {`Asking for `}
-            <b>$159,000 OBO.</b>
+            <b>$149,000 OBO.</b>
             {` The sale will be handled by Mercedes
           Benz of St. George, Utah (No, you don't have to travel to Utah).
           The Winnebago Revel is considered a Class B RV, so you may be eligible
