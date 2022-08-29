@@ -167,7 +167,7 @@ const IndexPage: NextPage = () => {
           </p>
           <p>
             {`Please call or text `}
-            <a href="tel:7755902797">(775)790-2797</a>
+            <a href="tel:7757902797">(775)790-2797</a>
             {` if interested.`}
           </p>
           <div className="image-gallery">
