@@ -148,7 +148,7 @@ const IndexPage: NextPage = () => {
               <li>Custom mattress by Roam Rest </li>
             </ul>
             {`This van is in excellent condition inside and out. We've recently installed 3 new AGM batteries for the house with a 3-year warranty. All services on the chassis have been done on time by Mercedes Benz, with the last occurring in April of 2022. A full house inspection was performed by El Toro RV in May of 2022. We are the original owners and will provide all service records and repair papers. With just under `}
-            <b>64K miles</b>
+            <b>65K miles</b>
             {` and a fuel economy of `}
             <b>17 MPG</b>
             {` on the highway, the Sprinter
@@ -159,7 +159,7 @@ const IndexPage: NextPage = () => {
           </p>
           <p>
             {`Asking for `}
-            <b>$129,000 OBO.</b>
+            <b>$119,000 OBO.</b>
             {` The sale will be handled by Mercedes Benz of St. George, Utah (No, you don't have to travel to Utah). Trade-ins and financing may be available. The Winnebago Revel is considered a Class B RV, so you may be eligible for an RV loan. RV loans have longer terms than a standard vehicle  loan which would lower your monthly payment.`}
           </p>
           <p>
