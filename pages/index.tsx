@@ -159,7 +159,7 @@ const IndexPage: NextPage = () => {
           </p>
           <p>
             {`Asking for `}
-            <b>$100,000.</b>
+            <b>$119,000.</b>
             {` The sale will be handled by Mercedes Benz of St. George, Utah (No, you don't have to travel to Utah). Trade-ins and financing may be available. The Winnebago Revel is considered a Class B RV, so you may be eligible for an RV loan. RV loans have longer terms than a standard vehicle  loan which would lower your monthly payment.`}
           </p>
           <p>
